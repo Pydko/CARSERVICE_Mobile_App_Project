@@ -8,6 +8,7 @@
 
 - [Overview](#overview)
 - [Features](#features)
+- [Video](#-video)
 - [Screenshots](#screenshots)
 - [Architecture](#architecture)
 - [Project Structure](#project-structure)
@@ -19,7 +20,14 @@
 - [Known Limitations](#known-limitations)
 - [Future Improvements](#future-improvements)
 - [Course Information](#course-information)
-- ## 📸 Video
+
+---
+
+## 📸 Video
+
+**Watch the application in action:**
+
+[▶️ View Video on YouTube](https://youtube.com/shorts/NIJxinBQnDU?feature=share)
 
 ---
 
@@ -314,17 +322,10 @@ flutter test
 |---|---|
 | Course | CEN306 – Mobile Application Design and Development |
 | Instructor | Dr. Yıldız Karadayı |
-| Developer | Muhammet Özgür Aslna |
+| Developer | Muhammet Özgür Aslan |
 | Academic Term | 2024–2025 Spring |
-| Repository | [github.com/Pydko/CARSERVICE_Mobile_App_Project](https://youtube.com/shorts/NIJxinBQnDU?feature=share) |
+| Repository | [github.com/Pydko/CARSERVICE_Mobile_App_Project](https://github.com/Pydko/CARSERVICE_Mobile_App_Project) |
 
 ---
 
-
----
-## 📸 Video
-
-[Watch on YouTube]([https://youtu.be/ukBfxPz8iNk](https://youtube.com/shorts/NIJxinBQnDU?feature=share))
-
----
-
+*Built with ❤️ and Flutter*
