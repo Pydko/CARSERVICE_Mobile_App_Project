@@ -9,7 +9,6 @@
 - [Overview](#overview)
 - [Features](#features)
 - [Video](#-video)
-- [Screenshots](#screenshots)
 - [Architecture](#architecture)
 - [Project Structure](#project-structure)
 - [Database Schema](#database-schema)
@@ -56,17 +55,6 @@ The project follows a clean **four-layer architecture** (Presentation → Provid
 | **User Feedback** | SnackBars for operation results; confirmation dialogs before deletions |
 | **Empty States** | Friendly empty-state widget with call-to-action when no data exists |
 
----
-
-## Screenshots
-
-> Screenshots will be added here after the demo recording is complete.
-
-| Vehicle List | Add Vehicle | Service History | Add Service |
-|---|---|---|---|
-| *(coming soon)* | *(coming soon)* | *(coming soon)* | *(coming soon)* |
-
----
 
 ## Architecture
 
