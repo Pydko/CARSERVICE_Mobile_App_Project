@@ -7,7 +7,7 @@ import 'ui/screens/loginScreen.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  // DB'yi UI açılmadan önce başlat — tablo oluşturma + admin seed burada biter
+
   await DatabaseHelper.instance.database;
 
   runApp(
@@ -26,9 +26,9 @@ class CarServiceApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Car Service App',
-      themeMode: ThemeMode.light, // Uygulamayı karanlık moddan bağımsız ışık moduna sabitler
+      themeMode: ThemeMode.light,
       theme: ThemeData(
-        brightness: Brightness.light, // Yazıların varsayılan rengini siyah yapar
+        brightness: Brightness.light,
         scaffoldBackgroundColor: Colors.grey[200],
         appBarTheme: const AppBarTheme(
           backgroundColor: Colors.black,
@@ -36,8 +36,8 @@ class CarServiceApp extends StatelessWidget {
         ),
         cardColor: Colors.white,
         inputDecorationTheme: const InputDecorationTheme(
-          labelStyle: TextStyle(color: Colors.black54), // TextField etiketleri
-          floatingLabelStyle: TextStyle(color: Colors.black), // Tıklanınca yukarı çıkan etiket
+          labelStyle: TextStyle(color: Colors.black54),
+          floatingLabelStyle: TextStyle(color: Colors.black),
         ),
         elevatedButtonTheme: ElevatedButtonThemeData(
           style: ElevatedButton.styleFrom(

@@ -8,8 +8,6 @@ class DatabaseHelper {
 
   Future<Database> get database async {
     if (_database != null) return _database!;
-    // DİKKAT: Veritabanı adını 'car_service.db' yerine 'car_service_v2.db' yaptık.
-    // Bu sayede eski hatalı tabloyu görmezden gelip sıfırdan güncel tabloyu kuracak.
     _database = await _initDB('car_service_v2.db');
     return _database!;
   }
@@ -39,8 +37,7 @@ class DatabaseHelper {
     await db.execute(
       'CREATE TABLE cars (id INTEGER PRIMARY KEY AUTOINCREMENT, userId INTEGER NOT NULL, brand TEXT NOT NULL, model TEXT NOT NULL)',
     );
-    
-    // YENİ EKLENEN SÜTUNLARLA BİRLİKTE GÜNCEL SERVICES TABLOSU
+
     await db.execute(
       'CREATE TABLE services (id INTEGER PRIMARY KEY AUTOINCREMENT, carId INTEGER NOT NULL, description TEXT NOT NULL, date TEXT NOT NULL, cost REAL NOT NULL, oilUsed TEXT NOT NULL, mileage INTEGER NOT NULL)',
     );
