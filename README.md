@@ -315,5 +315,3 @@ flutter test
 | Repository | [github.com/Pydko/CARSERVICE_Mobile_App_Project](https://github.com/Pydko/CARSERVICE_Mobile_App_Project) |
 
 ---
-
-*Built with ❤️ and Flutter*
