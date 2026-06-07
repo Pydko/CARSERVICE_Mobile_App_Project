@@ -316,7 +316,7 @@ flutter test
 | Instructor | Dr. Yıldız Karadayı |
 | Developer | Muhammet Özgür Aslna |
 | Academic Term | 2024–2025 Spring |
-| Repository | [github.com/Pydko/CARSERVICE_Mobile_App_Project](https://github.com/Pydko/CARSERVICE_Mobile_App_Project) |
+| Repository | [github.com/Pydko/CARSERVICE_Mobile_App_Project](https://youtube.com/shorts/NIJxinBQnDU?feature=share) |
 
 ---
 
