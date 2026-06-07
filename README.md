@@ -314,7 +314,7 @@ flutter test
 |---|---|
 | Course | CEN306 – Mobile Application Design and Development |
 | Instructor | Dr. Yıldız Karadayı |
-| Developer | Yiğit Şişman |
+| Developer | Muhammet Özgür Aslna |
 | Academic Term | 2024–2025 Spring |
 | Repository | [github.com/Pydko/CARSERVICE_Mobile_App_Project](https://github.com/Pydko/CARSERVICE_Mobile_App_Project) |
 
