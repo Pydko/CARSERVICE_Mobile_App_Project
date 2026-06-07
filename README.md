@@ -328,4 +328,3 @@ flutter test
 
 ---
 
-*Built with ❤️ and Flutter*
